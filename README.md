@@ -34,26 +34,7 @@ Este projeto é um BOT que opera pelos canais Telegram e Skype desenvolvido com 
 <li>[Microsoft Bot Framework](https://dev.botframework.com/)</li>
 <li>[Visual Studio Community](https://visualstudio.microsoft.com/pt-br/vs/community/)</li>
 
-### Instalando e rodando o back-end:
-
-```bash
-# Clone este repositório
-$ git clone https://github.com/lucaslgr/be-the-hero
-
-# Acesse a pasta do projeto no terminal/cmd
-$ cd be-the-hero
-
-# Vá para a pasta Backend
-$ cd backend
-
-# Instale as dependências
-$ npm install ou yarn add
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev ou yarn dev
-
-# O servidor inciará na porta:3333 - acesse http://localhost:3333 
-```
+### Instalando e rodando a aplicação:
 
 ### Clonar este repositório:
 
@@ -69,6 +50,10 @@ Para utilizar o QnA Maker você precisará informar suas knowledgeBaseId e subsc
 ### Recuperar a url do LUIS:
 
 Para utilizar o LUIS você precisará informar seu Endpoint dentro do arquivo Web.config, para isto basta acessar sua aplicação na plataforma LUIS e acessar a aba Publish do serviço a ser utilizado, no final da página exibida estarão os dadores referentes à Resources and Keys, basta copiar a url listada. A imagem abaixo demonstra a posição do item na tela.
+
+### Fazer deploy:
+
+Clicar com botão direito no projeto, fazer o deploy para o Azure através do VS Sudio e abrir o Bot Framework e/ou os canais configurados.
 
 ## 👨‍💻 Autoria
 
